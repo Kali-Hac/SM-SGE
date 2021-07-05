@@ -8,7 +8,7 @@ This is the official implementation of SM-SGE framework presented by "SM-SGE: A 
 
 ![image](https://github.com/Kali-Hac/SM-SGE/blob/main/img/overview.png)
 
-Abstract: Person re-identification via 3D skeletons is an emerging topic with great potential in security-critical applications. Existing methods typically learn body and motion features from the body-joint trajectory, whereas they lack a systematic way to model body structure and underlying relations of body components beyond the scale of body joints. In this paper, we for the first time propose a Self-supervised Multi-scale Skeleton Graph Encoding (SM-SGE) framework that comprehensively models human body, component relations, and skeleton dynamics from \textit{unlabeled} skeleton graphs of various scales to learn an effective skeleton representation for person Re-ID. Specifically, we first devise \textit{multi-scale skeleton graphs} with coarse-to-fine human body partitions, which enables us to model body structure and skeleton dynamics at multiple levels. Second, to mine inherent correlations between body components in skeletal motion, we propose a \textit{multi-scale graph relation network} to learn structural relations between adjacent body-component nodes and collaborative relations among nodes of different scales, so as to capture more discriminative skeleton graph features. Last, we propose a novel \textit{multi-scale skeleton reconstruction mechanism} to enable our framework to encode skeleton dynamics and high-level semantics from unlabeled skeleton graphs, which encourages learning a discriminative skeleton representation for person Re-ID. Extensive experiments show that SM-SGE outperforms most state-of-the-art skeleton-based methods. 
+Abstract: Person re-identification via 3D skeletons is an emerging topic with great potential in security-critical applications. Existing methods typically learn body and motion features from the body-joint trajectory, whereas they lack a systematic way to model body structure and underlying relations of body components beyond the scale of body joints. In this paper, we for the first time propose a Self-supervised Multi-scale Skeleton Graph Encoding (SM-SGE) framework that comprehensively models human body, component relations, and skeleton dynamics from unlabeled skeleton graphs of various scales to learn an effective skeleton representation for person Re-ID. Specifically, we first devise multi-scale skeleton graphs with coarse-to-fine human body partitions, which enables us to model body structure and skeleton dynamics at multiple levels. Second, to mine inherent correlations between body components in skeletal motion, we propose a multi-scale graph relation network to learn structural relations between adjacent body-component nodes and collaborative relations among nodes of different scales, so as to capture more discriminative skeleton graph features. Last, we propose a novel multi-scale skeleton reconstruction mechanism to enable our framework to encode skeleton dynamics and high-level semantics from unlabeled skeleton graphs, which encourages learning a discriminative skeleton representation for person Re-ID. Extensive experiments show that SM-SGE outperforms most state-of-the-art skeleton-based methods. 
 We further demonstrate its effectiveness on 3D skeleton data estimated from large-scale RGB videos.
 
 ## Requirements
@@ -89,6 +89,12 @@ python SM-SGE.py --dataset CASIA_B --length 20 --view 0
 ```
 Please see ```SM-SGE.py``` for more details. <br/>
 
+## Results
+![results](img/SM-SGE-results.png)
+
+# Acknowledgements
+
+Thanks to Veličković *et al.* for opening source of their excellent works [GAT](https://github.com/PetarV-/GAT). 
 
 ## License
 
