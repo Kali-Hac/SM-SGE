@@ -1,9 +1,15 @@
+![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)
+![PyTorch >=1.6](https://img.shields.io/badge/Tensorflow->=1.10-yellow.svg)
 # SM-SGE: A Self-Supervised Multi-Scale Skeleton Graph Encoding Framework for Person Re-Identification
+By Haocong Rao, Shihao Xu, Xiping Hu, Jun Cheng, Bin Hu. In [ACMMM 2021](https://github.com/Kali-Hac/SM-SGE).
 
 ## Introduction
-This is the implementation of SM-SGE framework presented by "SM-SGE: A Self-Supervised Multi-Scale Skeleton Graph Encoding Framework for Person Re-Identification" (Anonymous Submission of ACMMM-2021).
+This is the official implementation of SM-SGE framework presented by "SM-SGE: A Self-Supervised Multi-Scale Skeleton Graph Encoding Framework for Person Re-Identification". The codes are used to reproduce experimental results in the [paper](https://github.com/Kali-Hac/SM-SGE).
 
-The codes are used to reproduce experimental results in the paper.
+![image](https://github.com/Kali-Hac/SM-SGE/blob/main/img/overview.png)
+
+Abstract: Person re-identification via 3D skeletons is an emerging topic with great potential in security-critical applications. Existing methods typically learn body and motion features from the body-joint trajectory, whereas they lack a systematic way to model body structure and underlying relations of body components beyond the scale of body joints. In this paper, we for the first time propose a Self-supervised Multi-scale Skeleton Graph Encoding (SM-SGE) framework that comprehensively models human body, component relations, and skeleton dynamics from \textit{unlabeled} skeleton graphs of various scales to learn an effective skeleton representation for person Re-ID. Specifically, we first devise \textit{multi-scale skeleton graphs} with coarse-to-fine human body partitions, which enables us to model body structure and skeleton dynamics at multiple levels. Second, to mine inherent correlations between body components in skeletal motion, we propose a \textit{multi-scale graph relation network} to learn structural relations between adjacent body-component nodes and collaborative relations among nodes of different scales, so as to capture more discriminative skeleton graph features. Last, we propose a novel \textit{multi-scale skeleton reconstruction mechanism} to enable our framework to encode skeleton dynamics and high-level semantics from unlabeled skeleton graphs, which encourages learning a discriminative skeleton representation for person Re-ID. Extensive experiments show that SM-SGE outperforms most state-of-the-art skeleton-based methods. 
+We further demonstrate its effectiveness on 3D skeleton data estimated from large-scale RGB videos.
 
 ## Requirements
 - Python 3.5
