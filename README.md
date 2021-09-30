@@ -1,10 +1,10 @@
 ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-blue.svg)
 ![PyTorch >=1.6](https://img.shields.io/badge/Tensorflow->=1.10-yellow.svg)
 # SM-SGE: A Self-Supervised Multi-Scale Skeleton Graph Encoding Framework for Person Re-Identification
-By Haocong Rao, Shihao Xu, Xiping Hu, Jun Cheng, Bin Hu. In [ACMMM 2021](https://github.com/Kali-Hac/SM-SGE).
+By Haocong Rao, Shihao Xu, Xiping Hu, Jun Cheng, Bin Hu. In [ACMMM 2021](https://arxiv.org/pdf/2107.01903).
 
 ## Introduction
-This is the official implementation of SM-SGE framework presented by "SM-SGE: A Self-Supervised Multi-Scale Skeleton Graph Encoding Framework for Person Re-Identification". The codes are used to reproduce experimental results in the [paper](https://github.com/Kali-Hac/SM-SGE).
+This is the official implementation of SM-SGE framework presented by "SM-SGE: A Self-Supervised Multi-Scale Skeleton Graph Encoding Framework for Person Re-Identification". The codes are used to reproduce experimental results in the [paper](https://arxiv.org/pdf/2107.01903).
 
 ![image](https://github.com/Kali-Hac/SM-SGE/blob/main/img/overview.png)
 
