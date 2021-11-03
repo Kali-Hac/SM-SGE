@@ -95,12 +95,12 @@ Please see ```SM-SGE.py``` for more details. <br/>
 ![results](img/SM-SGE-results.png)
 
 ## Model Size & Computational Complexity
-| Methods                 | # Params | GFLOPs |
-| ----------------------- | -------- | ------ |
-| PoseGait                | 26.80M   | 364.8  |
-| [Attention Gait Encoding](https://github.com/Kali-Hac/SGE-LA) | 7.15M    | 37.4   |
-| [SGELA](https://github.com/Kali-Hac/Locality-Awareness-SGE)                   | 8.47M    | 7.5    |
-| [SM-SGE (Ours)](https://github.com/Kali-Hac/SM-SGE)                  | 5.58M    | 22.6   |
+| Methods  | # Params | GFLOPs |
+|----------|----------|--------|
+| PoseGait |   26.80M |  364.8 |
+| [AGE](https://github.com/Kali-Hac/SGE-LA)      |    7.15M |   37.4 |
+| [CAGE](https://github.com/Kali-Hac/Locality-Awareness-SGE)     |    8.47M |    7.5 |
+| [SM-SGE (Ours)](https://github.com/Kali-Hac/SM-SGE)   |    5.58M |   22.6 |
 
 
 # Acknowledgements
