@@ -4,7 +4,7 @@
 By Haocong Rao, Shihao Xu, Xiping Hu, Jun Cheng, Bin Hu. In [ACMMM 2021](https://arxiv.org/pdf/2107.01903).
 
 ## Introduction
-This is the official implementation of SM-SGE framework presented by "SM-SGE: A Self-Supervised Multi-Scale Skeleton Graph Encoding Framework for Person Re-Identification". The codes are used to reproduce experimental results in the [paper](https://arxiv.org/pdf/2107.01903).
+This is the official implementation of SM-SGE framework presented by "SM-SGE: A Self-Supervised Multi-Scale Skeleton Graph Encoding Framework for Person Re-Identification". The codes are used to reproduce experimental results in the [**paper**](https://arxiv.org/pdf/2107.01903).
 
 ![image](https://github.com/Kali-Hac/SM-SGE/blob/main/img/overview.png)
 
@@ -100,7 +100,7 @@ Please see ```SM-SGE.py``` for more details. <br/>
 | PoseGait                | 26.80M   | 364.8  |
 | [Attention Gait Encoding](https://github.com/Kali-Hac/SGE-LA) | 7.15M    | 37.4   |
 | [SGELA](https://github.com/Kali-Hac/Locality-Awareness-SGE)                   | 8.47M    | 7.5    |
-| SM-SGE                  | 5.58M    | 22.6   |
+| [SM-SGE (Ours)](https://github.com/Kali-Hac/SM-SGE)                  | 5.58M    | 22.6   |
 
 
 # Acknowledgements
