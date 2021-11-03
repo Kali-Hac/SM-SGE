@@ -89,7 +89,17 @@ python SM-SGE.py --dataset CASIA_B --length 20 --view 0
 ```
 Please see ```SM-SGE.py``` for more details. <br/>
 
+## Model Size & Computational Complexity
+| Methods  | # Params | GFLOPs |
+| -------- | -------- | ------ |
+| PoseGait | 26.80M   | 364.8  |
+| AGE      | 7.15M    | 37.4   |
+| SGELA    | 8.47M    | 7.5    |
+| SM-SGE   | 5.58M    | 22.6   |
+
+
 ## Results
+
 ![results](img/SM-SGE-results.png)
 
 # Acknowledgements
