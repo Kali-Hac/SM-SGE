@@ -94,7 +94,7 @@ Please see ```SM-SGE.py``` for more details. <br/>
 
 ![results](img/SM-SGE-results.png)
 
-### Model Size & Computational Complexity
+## Model Size & Computational Complexity
 | Methods                 | # Params | GFLOPs |
 | ----------------------- | -------- | ------ |
 | PoseGait                | 26.80M   | 364.8  |
