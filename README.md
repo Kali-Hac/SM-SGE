@@ -103,6 +103,19 @@ Please see ```SM-SGE.py``` for more details. <br/>
 | [CAGE](https://github.com/Kali-Hac/Locality-Awareness-SGE)     |    8.47M |    7.5 |
 | [SM-SGE (Ours)](https://github.com/Kali-Hac/SM-SGE)   |    5.58M |   22.6 |
 
+## Citation
+If you find this code useful for your research, please cite our paper
+```bash
+@inproceedings{rao2021sm,
+  title={SM-SGE: A Self-Supervised Multi-Scale Skeleton Graph Encoding Framework for Person Re-Identification},
+  author={Rao, Haocong and Hu, Xiping and Cheng, Jun and Hu, Bin},
+  booktitle={Proceedings of the 29th ACM International Conference on Multimedia},
+  pages={1812--1820},
+  year={2021}
+}
+
+```
+
 
 # Acknowledgements
 
