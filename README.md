@@ -3,7 +3,7 @@
 # SM-SGE: A Self-Supervised Multi-Scale Skeleton Graph Encoding Framework for Person Re-Identification
 By Haocong Rao, Shihao Xu, Xiping Hu, Jun Cheng, Bin Hu. In [ACMMM 2021](https://dl.acm.org/doi/10.1145/3474085.3475330). 
 
-To the best of our knowledge, this is the *first* skeleton-based person re-identification work appeared on ACMMM.
+To the best of our knowledge, this is the *first* skeleton-based person re-identification work accepted by ACMMM.
 <!-- (https://arxiv.org/pdf/2107.01903). -->
 
 ## Introduction
